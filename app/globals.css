@@ -1,26 +1,93 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  border-bottom: 1px solid #ddd;
+}
+
+nav h2 {
+  color: #5b4bdb;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #5b4bdb;
+  color: white;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 100px 8%;
+  background: #f1efff;
+}
+
+.hero h1 {
+  font-size: 45px;
+}
+
+section {
+  padding: 60px 8%;
+}
+
+#products {
+  text-align: center;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.image {
+  height: 150px;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  border-radius: 8px;
+}
+
+.product p {
+  color: #5b4bdb;
+  font-weight: bold;
+}
+
+.about {
+  text-align: center;
+  background: #fafafa;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #222;
+  color: white;
 }
