@@ -7,12 +7,10 @@ export default function Home() {
         <div>
           <a href="#">Home</a>
           <a href="#products">Recommended</a>
-          <a href="#about">reels</a>
+          <a href="#about">reelsss</a>
         </div>
 
         <button>🛒 Cart</button>
-      </nav>
-
       <section className="hero">
         <h1>Shop Everything You know</h1>
         <p>Quality products at affordable prices.</p>
