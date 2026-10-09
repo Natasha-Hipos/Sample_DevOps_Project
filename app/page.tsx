@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main>
       <nav>
-        <h2>SHOPNA!!!!!</h2>
+        <h2>SHOPNAAAA!!!</h2>
 
         <div>
           <a href="#">Home</a>
