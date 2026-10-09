@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main>
       <nav>
-        <h2>SHOPNA!!!!!</h2>
+        <h2>SHOPNAAAA!!!</h2>
 
         <div>
           <a href="#">Home</a>
@@ -14,7 +14,7 @@ export default function Home() {
       </nav>
 
       <section className="hero">
-        <h1>Shop Everything You Love</h1>
+        <h1>Shop Everything You know</h1>
         <p>Quality products at affordable prices.</p>
         <button>Shop Now</button>
       </section>
