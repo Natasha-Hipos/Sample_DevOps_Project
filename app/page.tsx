@@ -2,17 +2,15 @@ export default function Home() {
   return (
     <main>
       <nav>
-        <h2>shopyeyy!!!</h2>
+        <h2>Shein</h2>
 
         <div>
           <a href="#">Home</a>
           <a href="#products">Recommended</a>
-          <a href="#about">budol</a>
+          <a href="#about">reelsss</a>
         </div>
 
         <button>🛒 Cart</button>
-      </nav>
-
       <section className="hero">
         <h1>Shop Everything You know</h1>
         <p>Quality products at affordable prices.</p>
