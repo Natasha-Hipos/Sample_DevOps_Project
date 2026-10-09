@@ -2,12 +2,12 @@ export default function Home() {
   return (
     <main>
       <nav>
-        <h2>shopyeyy!!!</h2>
+        <h2>Shein</h2>
 
         <div>
           <a href="#">Home</a>
           <a href="#products">Recommended</a>
-          <a href="#about">budol</a>
+          <a href="#about">reels</a>
         </div>
 
         <button>🛒 Cart</button>
