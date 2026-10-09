@@ -14,7 +14,7 @@ export default function Home() {
       </nav>
 
       <section className="hero">
-        <h1>Shop Everything You Love</h1>
+        <h1>Shop Everything You know</h1>
         <p>Quality products at affordable prices.</p>
         <button>Shop Now</button>
       </section>
